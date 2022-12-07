@@ -40,8 +40,30 @@ namespace Fundamentals1
 
        public double Numbers(double a, double b, double c)
         {
-            double average = (a + b + c) / 2;
+            double v = (a + b + c) / 3; 
+            double average = v;
             return average;
+        }
+
+
+        public double FindAverage(params int[]items){
+            var sum = 0;
+            foreach(var i in items)
+            {
+                sum = sum+1;
+
+            }
+            var average = (double)sum/items.Length;
+            return average;
+        }
+
+        public double FindMinMax(params double[]number){
+            var number = 0;
+            foreach(var i in number){
+                double smallest = Min();
+                double largst = Max();
+
+            }
         }
 
     }
