@@ -31,8 +31,13 @@ internal class Program
         
         a.FindMinMax();
 
-        a.DrawPattern();
-        a.DrawPattern2();
+        
+
+       
+        Drawing.Gen = new();
+        Gen.DrawPattern();
+        Gen.DrawPattern2();
+        
     }
 }
 
