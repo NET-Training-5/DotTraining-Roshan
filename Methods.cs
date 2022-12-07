@@ -57,12 +57,45 @@ namespace Fundamentals1
             return average;
         }
 
-        public double FindMinMax(params double[]number){
-            var number = 0;
-            foreach(var i in number){
-                double smallest = Min();
-                double largst = Max();
+        public void FindMinMax()
+        {
+            int i = 0;
+            double[] minmax = { 2, 4, 9, 4, 3, 543, 8, 324, 12, 1, 321, 323 };
+            Console.WriteLine("minimum number is"+ minmax.Min());
+            Console.WriteLine("maximum number is "+ minmax.Max());
+            
+            
 
+
+        }
+
+
+
+
+          public void DrawPattern()
+        {
+            
+            for(int row = 1; row <=6; ++row)
+            {
+                for(int col = 1; col <= row; ++col)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+           
+        }
+
+
+        public void DrawPattern2()
+        {
+            for(int row = 1; row <=6;  ++row)
+            {
+                for(int column = 1; column <= row; ++column)
+                {
+                    Console.Write(row);
+                }
+                Console.WriteLine();
             }
         }
 

@@ -30,6 +30,9 @@ internal class Program
         string[] value1 = { "Ram", "shyam", "hari" };
         
         a.FindMinMax();
+
+        a.DrawPattern();
+        a.DrawPattern2();
     }
 }
 
