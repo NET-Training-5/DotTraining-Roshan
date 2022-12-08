@@ -1,6 +1,6 @@
 ﻿using Fundamentals1;
 
-internal class Program
+internal class NewBaseType
 {
     private static void Main(string[] args)
     {
@@ -28,18 +28,23 @@ internal class Program
         object value = Console.WriteLine(average);
 
         string[] value1 = { "Ram", "shyam", "hari" };
-        
+
         a.FindMinMax();
 
-        
 
-       
+
+
         Drawing.Gen = new();
         Gen.DrawPattern();
         Gen.DrawPattern2();
-        
+
+        var (min, max) = Gen.FindMinMax(2, 453, 23, 53, 1, 24, 1, 3434, 21, 2);
+        System.Console.WriteLine( $"Min:{min} Max:{max}");
+
     }
 }
+
+
 
 //takes argunents or not , returns multiple values
 
