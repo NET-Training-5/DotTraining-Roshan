@@ -1,5 +1,6 @@
 class Fifa
 {
+    public static byte NoOfGroups = 8;
     public string host;
     public DateTime year;
 
@@ -19,8 +20,9 @@ class Fifa
     }
 
 
-    public Fifa(string h, DateTime y, string w, string[]tms) //parameterized constructor
+    public Fifa(  string h, DateTime y, string w, string[]tms) //parameterized constructor
     {
+        
         host = h;
         year = y;
         winner = w;
