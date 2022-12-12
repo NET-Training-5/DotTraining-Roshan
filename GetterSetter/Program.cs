@@ -31,7 +31,23 @@ namespace Pracrice
             {"France","Germany","Morocco","crotia"});
 
             Fifa.NoOfGroups = 9;
+            
+            C c1 = new();
+            c1.x = 10;
 
+            IShape shape = new Rectangle(34.2,23.32);
+            var a1 = shape.GetArea();
+            va a2 = shape.GetPerimeter();
+
+            shape = new Square(23,23);
+            var b1 = shape.GetArea();
+            var b2 = shape.GetPerimeter();
+
+
+            shape = new Circle(4);
+            var d1 = shape.GetArea();
+            var d2 = shape.GetPerimeter();
+            
 
         }
         }
