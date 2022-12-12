@@ -47,11 +47,17 @@ namespace Pracrice
             shape = new Circle(4);
             var d1 = shape.GetArea();
             var d2 = shape.GetPerimeter();
+
+      
+
+            
+
             
 
         }
-        }
     }
-    }
+
 }
+ }
+    }
 
