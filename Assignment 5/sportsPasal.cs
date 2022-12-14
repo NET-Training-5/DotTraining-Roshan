@@ -11,6 +11,9 @@ namespace Pracrice
         public int Students { get; set; }
         public int Rent { get; set; }
         public float Expenditure;
+        public float Rent;
+
+        public  float expenditure;
 
 
         //public sportsPasal(int students, int rent, float expenditure)
