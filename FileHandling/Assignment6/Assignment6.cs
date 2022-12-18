@@ -38,7 +38,7 @@ namespace Day1Practice
 
         void DisplayValues<T>(IEnumerable<T> elements, string label)
         {
-            Console.Write($"\n{label}");
+            Console.Write($"\n{label} :");
             foreach (var x in elements)
             {
                 Console.Write(x + " ");
