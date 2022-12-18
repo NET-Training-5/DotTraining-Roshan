@@ -22,7 +22,7 @@ namespace Day1Practice
 
         public void letterLessThan4()
         {
-           var less = from x in countries where x.Length<4
+           var less = from x in countries where x.Length<=4
                       select x;
             DisplayValues(less, "less than 4 character counteries");
         }
