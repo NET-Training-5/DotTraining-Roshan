@@ -14,7 +14,7 @@ namespace Day1Practice
         {
            var startingWithN = from x in countries where x.StartsWith("N")
                                select x;
-            DisplayValues(starting, "starting with N counteries");
+            DisplayValues(startingWithN, "starting with N counteries");
 
 
 
