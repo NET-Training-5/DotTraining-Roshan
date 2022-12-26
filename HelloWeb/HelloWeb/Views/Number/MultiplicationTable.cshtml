@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model int
+@{
+    int number = Model;
+}
+@{
+    <h2>miltiplication table of  @number</h2>
+
+    for (int k = 1; k <= 10; k++)
+    {
+
+        var ans = (number * k);
+       
+
+        <pre>@number * @k = @ans</pre>
+
+    }
+}

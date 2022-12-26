@@ -9,9 +9,19 @@ namespace HelloWeb.Controllers
         //    return View();
         //}
 
-        public IActionResult Greet()
+        public IActionResult Table()
         {
             return View();
         }
+
+        public IActionResult MultiplicationTable(int n)
+        {
+            return View(n);
+        }
+
+     
+
+
+
     }
 }
