@@ -19,6 +19,11 @@ namespace HelloWeb.Controllers
             return View(n);
         }
 
+        public IActionResult Multiplication(int from, int to)
+        {
+            return View((from, to));
+        }
+
      
 
 
